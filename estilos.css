@@ -1,0 +1,68 @@
+body{
+	background-image:url(game.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+h1{
+	color:orange;
+	font-family:'Honk', system-ui;
+	font-size:40px;
+	text-align:center;
+}
+h2{
+	background-color:yellow;
+	font-family:'Honk', system-ui;
+}	
+ul{
+	font-family: 'Lilita One', sans-serif;
+}
+ol{
+	font-family: 'Lilita One', sans-serif;
+}
+.hover-boton{
+	background-color:orange;
+    font-size:15px;
+	border-radius:10px;
+	padding:5px;
+	border:none;
+	color:white;
+}
+.hover-boton:hover{
+	background-color:black;
+}
+.contenedorfooter{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    font-family: 'DM Sans', sans-serif;
+}
+[variable="contenedorfooter_caja"]{
+    text-align:justify;
+	padding:25px;
+	margin:10px;
+	color:white;
+	width:300px;
+	font-size:15px;
+}
+[variable="contenedorfooter_caja"]h2{
+	text-align:center;
+}
+.whatsapp{
+	width:60px;
+	height:60px;
+	bottom:40px;
+	background-color:green;
+	right:40px;
+	color:white;
+	text-align:center;
+	font-size:30px;
+	z-index:100;
+	position:fixed;
+	border-radius:40px;
+	padding:5px;
+}
+.whatsapp-icon{
+    margin-top:15px;
+}
